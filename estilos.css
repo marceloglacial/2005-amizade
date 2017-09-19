@@ -1,0 +1,243 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url(imagens/back.gif);
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #0066CC;
+}
+a {
+	text-decoration:none;
+	color:#77A4DE;
+}
+a:hover {
+	text-decoration:underline;
+}
+.center {
+	text-align: center;
+}
+p img {
+	padding: 0;
+	max-width: 100%;
+}
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+}
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+	}
+.alignright {
+	float: right;
+}
+.alignleft {
+	float: left
+}
+#corpo {
+	width: 780px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #FFFFFF;
+}
+#topo {
+	background-image: url(imagens/topo.gif);
+	background-repeat: no-repeat;
+	height: 97px;
+	margin:0px;
+	padding:0px;
+}
+#topo h1 {
+	display:none;
+}
+#topo ul {
+	margin:0px;
+	padding:0px;
+	float: right;
+	list-style-type: none;
+	margin-top:4px;
+}
+#topo li {
+	display: inline;
+	margin-right:10px;
+	color:#0066CC;
+}
+#topo li a:hover {
+	color:#0066CC;
+	text-decoration:none;
+}
+#menu {
+	margin:0px;
+	padding:0px;
+	width: 115px;
+	text-align:right;
+	height:500px;
+	float:left;
+	padding-bottom:20px;
+}
+#menu ul {
+	margin:0px;
+	padding:0px;
+}
+#menu ul ul {
+	background-image: url(imagens/menu-vertical.jpg);
+	background-repeat: repeat-y;
+	margin: 0px;
+	padding: 0px;
+}
+#menu ul h2 {
+	background-image: url(imagens/menu-cima.jpg);
+	color:#0066CC;
+	margin: 0px;
+	padding: 14px 20px 11px 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	background-repeat: no-repeat;
+}
+#menu ul ul li {
+	padding: 0px 20px 0px 0px;
+	list-style-type: none;
+}
+#menu ul ul li.inicial {
+	background-image: url(imagens/menu-topo.jpg);
+	background-repeat: no-repeat;
+	padding-top:7px;
+}
+#menu ul ul li.final {
+	background-image: url(imagens/menu-fundo-baixo.gif);
+	background-repeat: no-repeat;
+	padding-bottom:10px;
+	margin-right:5px;
+	background-position: bottom;
+}
+#menu ul ul li.final a {
+	margin-right:-5px;
+}
+#meio {
+	width:400px;
+	float:left;
+	margin: 0px 30px 0px 0px;
+	padding: 0px;
+	margin-left:15px;
+	padding-bottom:20px;
+}
+#meio p {
+	margin:0px;
+	padding:0px;
+}
+#direita {
+	width:200px;
+	float:left;
+	padding-bottom: 20px;
+	color:#0066CC;
+	text-align: right;
+	margin-top:7px;
+}
+#direita ul {
+	margin:0px 0px 10px;
+	padding:0px;
+}
+#direita ul h2 {
+	font-size: 11px;
+	font-weight: normal;
+	background-image: url(imagens/lateral-titulo.jpg);
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding:6px 15px 12px 0px;
+	background-position: right;
+	display: block;
+}
+#direita ul ul {
+	margin-right:15px;
+	padding-top:5px;
+	list-style:none;
+}
+#direita ul ul li {
+	padding-bottom:3px;
+/*	background-image: url(imagens/linha-conteudo.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;*/
+}
+#rodape {
+	background-image: url(imagens/baixo.jpg);
+	height: 22px;
+	clear:both;
+}
+#rodape p {
+	text-align:center;
+	padding-top:3px;
+}
+#rodape p,
+#rodape p a {
+	color:#FFFFFF;
+}
+#destaque {
+	padding: 10px 0px;
+	margin: 0px;
+	text-align: right;
+	height: 130px;
+	display: block;
+}
+/*#destaque img {
+	float: right;
+	border-right:5px solid #FFFFFF;
+	display: block;
+}*/
+#destaque h4 {
+	font-size: 11px;
+	text-align: left;
+	background-image: url(imagens/linha-destaque.jpg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px 0px 5px;
+	font-weight: bold;
+}
+#destaque img a {
+	margin: 0px;
+	padding: 0px;
+}
+#novidades {
+	background-image: url(imagens/novidades.jpg);
+	background-repeat: no-repeat;
+	padding: 20px;
+	text-align: center;
+}
+#logs {
+	margin: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#logs h4,
+#artigos h4 {
+	font-size: 11px;
+	text-align: left;
+	background-image: url(imagens/linha-conteudo.jpg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px 0px 5px;
+	font-weight: bold;
+}
+#logs p {
+	text-align:right;
+}
+#conteudo p {
+	margin-bottom:5px;
+	margin-bottom:5px;
+}
+.imgconteudo {
+	padding: 1px 2px 0px 0px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	float:right;
+}
