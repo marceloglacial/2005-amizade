@@ -9,7 +9,7 @@
 
 ## Live Demo
 
-https://glacial.gitlab.io/2005-amizade/
+https://marceloglacial.github.io/2005-amizade/front-end/
 
 ## Screnshot
 
